@@ -15,17 +15,15 @@ The player can use the following keys for movement:
 ## **Installation Guide:**
 1. Download the .zip file of the code
 2. Extract the .zip file and open it in VS code
-3. In **project.py**, delete line 8 of code to have audio available.\
-    ```os.environ["SDL_AUDIODRIVER"] = "dummy"```
-4. In the terminal, paste the following code:
+3. In the terminal, paste the following code:
 ```
 pyinstaller project.py --onefile -w
 ```
-5. Go in the extracted folder, two folders named **dist** and **build** would've been created.
-6. ```CTRL + X``` on the **build** folder and paste it in the **dist** folder.
-7. Go back in the extracted folder, copy **font**, **images**, and **sound** folder,\
+4. Go in the extracted folder, two folders named **dist** and **build** would've been created.
+5. ```CTRL + X``` on the **build** folder and paste it in the **dist** folder.
+6. Go back in the extracted folder, copy **font**, **images**, and **sound** folder,\
 then paste them in the **dist** folder.
-8. Click on the .exe file to start playing.
+7. Click on the .exe file to start playing.
 
 
 ## **Packages:**
