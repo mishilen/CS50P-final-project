@@ -17,6 +17,9 @@ The player can use the following keys for movement:
 2. Extract the .zip file and open it in VS code
 3. In the terminal, paste the following code:
 ```
+pip install -r requirements.txt
+```
+```
 pyinstaller project.py --onefile -w
 ```
 4. Go in the extracted folder, two folders named **dist** and **build** would've been created.
